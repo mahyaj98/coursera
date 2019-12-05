@@ -118,7 +118,7 @@ def solve_it(input_data):
     # Greedy - Highest Density First END
     # DP Space Effiient
     chosen = []
-    K = [[0 for _ in range(capacity)] for _ in range(2)]
+    K = [[0 for _ in range(capacity+1)] for _ in range(2)]
     i = 0
     while i < len(items):
         j = 0
