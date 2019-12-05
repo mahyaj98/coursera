@@ -42,6 +42,8 @@ def solve_it(input_data):
         if cap > 0:
             val += tmp.value
             chosen.append(tmp.index)
+        else:
+            break
     taken = []
     for i in enumerate(items):
         if i in chosen:
