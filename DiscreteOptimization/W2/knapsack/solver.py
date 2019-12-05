@@ -21,7 +21,7 @@ def solve_it(input_data):
         parts = line.split()
         items.append(Item(i-1, int(parts[0]), int(parts[1])))
 
-    print(items)
+    #print(items)
 
     # a trivial greedy algorithm for filling the knapsack
     # it takes items in-order until the knapsack is full
@@ -59,9 +59,9 @@ def solve_it(input_data):
     
     
     # prepare the solution in the specified output format
-    output_data = str(value) + ' ' + str(0) + '\n'
-    output_data += ' '.join(map(str, taken))
-    return output_data
+    # output_data = str(value) + ' ' + str(0) + '\n'
+    # output_data += ' '.join(map(str, taken))
+    return output_data_g1
 
 
 if __name__ == '__main__':
