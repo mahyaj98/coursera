@@ -85,7 +85,34 @@ def solve_it(input_data):
     if val >= final_val:
         final_output = output_data_g2
     # Greedy - Smallest Weight First END
+    # Greedy - Highest Density First
+    chosen = []
+    tmp = items[0]
+    cap = capacity
+    val = 0
+    while 1:
+        max_den = 0
+        for item in items:
+            if item.value/item.weight > max_den and item.index not in chosen:
+                max_den = item.value/item.weight
+                tmp = item
 
+        cap -= tmp.weight
+        if cap > 0:
+            val += tmp.value
+            chosen.append(tmp.index)
+        else:
+            break
+    taken = []
+    for i in range(len(items)):
+        if i in chosen:
+            taken.append(1)
+        else:
+            taken.append(0)
+    output_data_g3 = str(val) + ' ' + str(0) + '\n'
+    output_data_g3 += ' '.join(map(str, taken))
+    if val >= final_val:
+        final_output = output_data_g3
 
 
     
