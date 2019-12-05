@@ -83,6 +83,7 @@ def solve_it(input_data):
     output_data_g2 = str(val) + ' ' + str(0) + '\n'
     output_data_g2 += ' '.join(map(str, taken))
     if val >= final_val:
+        final_val = val
         final_output = output_data_g2
     # Greedy - Smallest Weight First END
     # Greedy - Highest Density First
@@ -112,7 +113,11 @@ def solve_it(input_data):
     output_data_g3 = str(val) + ' ' + str(0) + '\n'
     output_data_g3 += ' '.join(map(str, taken))
     if val >= final_val:
+        final_val = val
         final_output = output_data_g3
+    # Greedy - Highest Density First END
+    # DP
+
 
 
     

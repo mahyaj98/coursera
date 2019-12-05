@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="-44">
+              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -109,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575575385555</updated>
-      <workItem from="1575575386919" duration="1578000" />
+      <workItem from="1575575386919" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="greedy highest value first - bug">
       <created>1575576530310</created>
@@ -125,11 +125,32 @@
       <option name="project" value="LOCAL" />
       <updated>1575576574018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="greedy smallest weight first - bug">
+      <created>1575576980313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575576980313</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Flexible Output">
+      <created>1575577092886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575577092886</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Flexible Output - fixed bug">
+      <created>1575577126679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575577126679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1578000" />
+    <option name="totallyTimeSpent" value="1832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -163,13 +184,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="greedy highest value first - bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="greedy highest value first - bug" />
+    <MESSAGE value="greedy smallest weight first - bug" />
+    <MESSAGE value="Flexible Output" />
+    <MESSAGE value="Flexible Output - fixed bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flexible Output - fixed bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        <state relative-caret-position="-44">
+          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
         </state>
       </provider>
     </entry>
