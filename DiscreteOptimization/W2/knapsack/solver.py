@@ -53,6 +53,7 @@ def solve_it(input_data):
     output_data_g1 = str(val) + ' ' + str(0) + '\n'
     output_data_g1 += ' '.join(map(str, taken))
     if val >= final_val:
+        final_val = val
         final_output = output_data_g1
     # Greedy - Highest Value First END
     # Greedy - Smallest Weight First
