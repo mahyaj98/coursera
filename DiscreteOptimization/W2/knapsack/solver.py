@@ -116,7 +116,44 @@ def solve_it(input_data):
         final_val = val
         final_output = output_data_g3
     # Greedy - Highest Density First END
-    # DP
+    # DP Space Effiient
+    chosen = []
+    K = [[0 for _ in range(capacity)] for _ in range(2)]
+    i = 0
+    while i < len(items):
+        j = 0
+
+        if i % 2 == 0:
+            if items[i].weight <= j:
+                K[1][j] = max(items[i].value + K[0][j-items[i].weight], K[0][j])
+            else:
+                K[1][j] = K[0][j]
+
+        else:
+            if items[i].weight <= j:
+                K[10][j] = max(K[1][j-items[i].weight], K[1][j])
+            else:
+                K[0][j] = K[1][j]
+        if K[1][j] != K[0][j]:
+            chosen.append(i)
+        i+=1
+
+    if len(items) % 2 == 0:
+        val = K[0][capacity]
+    else:
+        val = K[1][capacity]
+
+    taken = []
+    for i in range(len(items)):
+        if i in chosen:
+            taken.append(1)
+        else:
+            taken.append(0)
+    output_data_dp = str(val) + ' ' + str(0) + '\n'
+    output_data_dp += ' '.join(map(str, taken))
+    if val >= final_val:
+        final_val = val
+        final_output = output_data_dp
 
 
 
