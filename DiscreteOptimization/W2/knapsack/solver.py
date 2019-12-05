@@ -21,11 +21,11 @@ def solve_it(input_data):
         parts = line.split()
         items.append(Item(i-1, int(parts[0]), int(parts[1])))
 
-    print(items)
-
+#
     # a trivial greedy algorithm for filling the knapsack
     # it takes items in-order until the knapsack is full
-
+    final_output = ''
+    final_val = 0
     # Greedy - Highest Value First
     chosen = []
     tmp = items[0]
@@ -52,6 +52,8 @@ def solve_it(input_data):
             taken.append(0)
     output_data_g1 = str(val) + ' ' + str(0) + '\n'
     output_data_g1 += ' '.join(map(str, taken))
+    if val >= final_val:
+        final_output = output_data_g1
     # Greedy - Highest Value First END
     # Greedy - Smallest Weight First
     chosen = []
@@ -79,6 +81,8 @@ def solve_it(input_data):
             taken.append(0)
     output_data_g2 = str(val) + ' ' + str(0) + '\n'
     output_data_g2 += ' '.join(map(str, taken))
+    if val >= final_val:
+        final_output = output_data_g2
     # Greedy - Smallest Weight First END
 
 
@@ -88,7 +92,7 @@ def solve_it(input_data):
     # prepare the solution in the specified output format
     # output_data = str(value) + ' ' + str(0) + '\n'
     # output_data += ' '.join(map(str, taken))
-    return output_data_g2
+    return final_output
 
 
 if __name__ == '__main__':
