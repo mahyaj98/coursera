@@ -26,95 +26,95 @@ def solve_it(input_data):
     # it takes items in-order until the knapsack is full
     final_output = ''
     final_val = 0
-    # Greedy - Highest Value First
-    chosen = []
-    tmp = items[0]
-    cap = capacity
-    val = 0
-    while 1:
-        max_value = 0
-        for item in items:
-            if item.value > max_value and item.index not in chosen:
-                max_value = item.value
-                tmp = item
-
-        cap -= tmp.weight
-        if cap > 0:
-            val += tmp.value
-            chosen.append(tmp.index)
-        else:
-            break
-    taken = []
-    for i in range(len(items)):
-        if i in chosen:
-            taken.append(1)
-        else:
-            taken.append(0)
-    output_data_g1 = str(val) + ' ' + str(0) + '\n'
-    output_data_g1 += ' '.join(map(str, taken))
-    if val >= final_val:
-        final_val = val
-        final_output = output_data_g1
-    # Greedy - Highest Value First END
-    # Greedy - Smallest Weight First
-    chosen = []
-    tmp = items[0]
-    cap = capacity
-    val = 0
-    while 1:
-        min_weight = 1000000
-        for item in items:
-            if item.weight < min_weight and item.index not in chosen:
-                min_weight = item.weight
-                tmp = item
-
-        cap -= tmp.weight
-        if cap > 0:
-            val += tmp.value
-            chosen.append(tmp.index)
-        else:
-            break
-    taken = []
-    for i in range(len(items)):
-        if i in chosen:
-            taken.append(1)
-        else:
-            taken.append(0)
-    output_data_g2 = str(val) + ' ' + str(0) + '\n'
-    output_data_g2 += ' '.join(map(str, taken))
-    if val >= final_val:
-        final_val = val
-        final_output = output_data_g2
-    # Greedy - Smallest Weight First END
-    # Greedy - Highest Density First
-    chosen = []
-    tmp = items[0]
-    cap = capacity
-    val = 0
-    while 1:
-        max_den = 0
-        for item in items:
-            if item.value/item.weight > max_den and item.index not in chosen:
-                max_den = item.value/item.weight
-                tmp = item
-
-        cap -= tmp.weight
-        if cap > 0:
-            val += tmp.value
-            chosen.append(tmp.index)
-        else:
-            break
-    taken = []
-    for i in range(len(items)):
-        if i in chosen:
-            taken.append(1)
-        else:
-            taken.append(0)
-    output_data_g3 = str(val) + ' ' + str(0) + '\n'
-    output_data_g3 += ' '.join(map(str, taken))
-    if val >= final_val:
-        final_val = val
-        final_output = output_data_g3
+    # # Greedy - Highest Value First
+    # chosen = []
+    # tmp = items[0]
+    # cap = capacity
+    # val = 0
+    # while 1:
+    #     max_value = 0
+    #     for item in items:
+    #         if item.value > max_value and item.index not in chosen:
+    #             max_value = item.value
+    #             tmp = item
+    #
+    #     cap -= tmp.weight
+    #     if cap > 0:
+    #         val += tmp.value
+    #         chosen.append(tmp.index)
+    #     else:
+    #         break
+    # taken = []
+    # for i in range(len(items)):
+    #     if i in chosen:
+    #         taken.append(1)
+    #     else:
+    #         taken.append(0)
+    # output_data_g1 = str(val) + ' ' + str(0) + '\n'
+    # output_data_g1 += ' '.join(map(str, taken))
+    # if val >= final_val:
+    #     final_val = val
+    #     final_output = output_data_g1
+    # # Greedy - Highest Value First END
+    # # Greedy - Smallest Weight First
+    # chosen = []
+    # tmp = items[0]
+    # cap = capacity
+    # val = 0
+    # while 1:
+    #     min_weight = 1000000
+    #     for item in items:
+    #         if item.weight < min_weight and item.index not in chosen:
+    #             min_weight = item.weight
+    #             tmp = item
+    #
+    #     cap -= tmp.weight
+    #     if cap > 0:
+    #         val += tmp.value
+    #         chosen.append(tmp.index)
+    #     else:
+    #         break
+    # taken = []
+    # for i in range(len(items)):
+    #     if i in chosen:
+    #         taken.append(1)
+    #     else:
+    #         taken.append(0)
+    # output_data_g2 = str(val) + ' ' + str(0) + '\n'
+    # output_data_g2 += ' '.join(map(str, taken))
+    # if val >= final_val:
+    #     final_val = val
+    #     final_output = output_data_g2
+    # # Greedy - Smallest Weight First END
+    # # Greedy - Highest Density First
+    # chosen = []
+    # tmp = items[0]
+    # cap = capacity
+    # val = 0
+    # while 1:
+    #     max_den = 0
+    #     for item in items:
+    #         if item.value/item.weight > max_den and item.index not in chosen:
+    #             max_den = item.value/item.weight
+    #             tmp = item
+    #
+    #     cap -= tmp.weight
+    #     if cap > 0:
+    #         val += tmp.value
+    #         chosen.append(tmp.index)
+    #     else:
+    #         break
+    # taken = []
+    # for i in range(len(items)):
+    #     if i in chosen:
+    #         taken.append(1)
+    #     else:
+    #         taken.append(0)
+    # output_data_g3 = str(val) + ' ' + str(0) + '\n'
+    # output_data_g3 += ' '.join(map(str, taken))
+    # if val >= final_val:
+    #     final_val = val
+    #     final_output = output_data_g3
     # Greedy - Highest Density First END
     # DP Space Efficient
     chosen = []
