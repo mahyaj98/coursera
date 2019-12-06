@@ -131,7 +131,7 @@ def solve_it(input_data):
 
         else:
             if items[i].weight <= j:
-                K[10][j] = max(items[i].value + K[1][j-items[i].weight], K[1][j])
+                K[0][j] = max(items[i].value + K[1][j-items[i].weight], K[1][j])
             else:
                 K[0][j] = K[1][j]
         if K[1][j] != K[0][j]:
