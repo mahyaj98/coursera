@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="125" selection-end-column="22" />
+            <state relative-caret-position="215">
+              <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -45,10 +45,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,7 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575575385555</updated>
       <workItem from="1575575386919" duration="4488000" />
-      <workItem from="1575620675160" duration="1533000" />
+      <workItem from="1575620675160" duration="1556000" />
+      <workItem from="1575628288465" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="greedy highest value first - bug">
       <created>1575576530310</created>
@@ -191,17 +191,30 @@
       <option name="project" value="LOCAL" />
       <updated>1575621133123</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="I essentially wrote a bug">
+      <created>1575622340415</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575622340415</updated>
+    </task>
+    <task id="LOCAL-00013" summary="I essentially wrote a bug v2">
+      <created>1575628438056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575628438056</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6021000" />
+    <option name="totallyTimeSpent" value="16039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5361345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,11 +225,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35283688" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -238,13 +251,14 @@
     <MESSAGE value="Space Efficient DP - BUGGG" />
     <MESSAGE value="Space Efficient DP - BUGGGG" />
     <MESSAGE value="I essentially wrote a bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="I essentially wrote a bug" />
+    <MESSAGE value="I essentially wrote a bug v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="I essentially wrote a bug v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="125" selection-end-column="22" />
+        <state relative-caret-position="215">
+          <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
         </state>
       </provider>
     </entry>
