@@ -182,6 +182,11 @@ def DP(items, capacity):
 
     return output_data_dp, val
 
+def BB(items, capacity):
+
+    chosen = []
+    K = [ 0 for _ in len(items)]
+
 
 if __name__ == '__main__':
     import sys

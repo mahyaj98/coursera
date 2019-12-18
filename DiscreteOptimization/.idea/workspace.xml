@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="280">
+              <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
               <folding>
                 <element signature="e#2362#3047#0" />
                 <element signature="e#3109#3805#0" />
@@ -96,7 +96,7 @@
       <workItem from="1575575386919" duration="4488000" />
       <workItem from="1575620675160" duration="1556000" />
       <workItem from="1575628288465" duration="9995000" />
-      <workItem from="1576691037077" duration="1116000" />
+      <workItem from="1576691037077" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="greedy highest value first - bug">
       <created>1575576530310</created>
@@ -193,7 +193,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17155000" />
+    <option name="totallyTimeSpent" value="17454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -242,8 +242,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="280">
+          <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
           <folding>
             <element signature="e#2362#3047#0" />
             <element signature="e#3109#3805#0" />
