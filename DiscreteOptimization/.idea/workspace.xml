@@ -16,8 +16,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
+            <state relative-caret-position="62">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="e#2362#3047#0" />
+                <element signature="e#3109#3805#0" />
+                <element signature="e#4217#4896#0" />
+                <element signature="e#3911#4971#0" />
+                <element signature="e#4891#5256#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,40 +52,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DiscreteOptimization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiscreteOptimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiscreteOptimization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiscreteOptimization" type="462c0819:PsiDirectoryNode" />
-              <item name="W2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiscreteOptimization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiscreteOptimization" type="462c0819:PsiDirectoryNode" />
-              <item name="W2" type="462c0819:PsiDirectoryNode" />
-              <item name="knapsack" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
@@ -113,6 +96,7 @@
       <workItem from="1575575386919" duration="4488000" />
       <workItem from="1575620675160" duration="1556000" />
       <workItem from="1575628288465" duration="9995000" />
+      <workItem from="1576691037077" duration="1116000" />
     </task>
     <task id="LOCAL-00001" summary="greedy highest value first - bug">
       <created>1575576530310</created>
@@ -209,10 +193,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16039000" />
+    <option name="totallyTimeSpent" value="17155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5361345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -257,8 +242,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/W2/knapsack/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
+        <state relative-caret-position="62">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#2362#3047#0" />
+            <element signature="e#3109#3805#0" />
+            <element signature="e#4217#4896#0" />
+            <element signature="e#3911#4971#0" />
+            <element signature="e#4891#5256#0" />
+          </folding>
         </state>
       </provider>
     </entry>
